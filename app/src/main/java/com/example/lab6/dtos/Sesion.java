@@ -1,20 +1,42 @@
 package com.example.lab6.dtos;
 
+import com.google.firebase.firestore.DocumentId;
+
 public class Sesion {
 
+    @DocumentId
+    private String id;
+    private String uid;
     private String curso;
-    private String fecha;
+    private String fecha;   // formato dd/MM/yyyy
     private double horas;
-    private String tipo;
+    private String tipo;    // Teoría, Práctica o Laboratorio
 
-    public Sesion(){
-
+    public Sesion() {
     }
-    public Sesion(String curso, String fecha, double horas, String tipo){
+
+    public Sesion(String uid, String curso, String fecha, double horas, String tipo) {
+        this.uid = uid;
         this.curso = curso;
         this.fecha = fecha;
         this.horas = horas;
         this.tipo = tipo;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
     }
 
     public String getCurso() {

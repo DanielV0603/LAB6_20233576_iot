@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">Lab6</string>
+    <string name="app_name">Horas de Estudio</string>
+    <string name="lema">Registra tus sesiones de estudio</string>
+    <string name="login_google">Continuar con Google</string>
+    <string name="login_email">Continuar con correo electrónico</string>
+    <string name="login_ayuda">Con tu correo podrás iniciar sesión, registrarte o recuperar tu contraseña.</string>
+    <string name="mis_sesiones">Mis sesiones de estudio</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="ver_graficos">Ver gráficos</string>
+    <string name="nueva_sesion">Nueva sesión</string>
+    <string name="editar_sesion">Editar sesión</string>
+    <string name="curso">Curso</string>
+    <string name="fecha">Fecha</string>
+    <string name="horas">Horas dedicadas</string>
+    <string name="tipo">Tipo de actividad</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="editar">Editar</string>
+    <string name="graficos">Gráficos</string>
+    <string name="filtrar_curso">Filtrar por curso</string>
+    <string name="todos_los_cursos">Todos los cursos</string>
+    <string name="horas_por_mes">Horas de estudio por mes</string>
+    <string name="horas_por_tipo">Proporción de horas por tipo de actividad</string>
+    <string name="sin_datos">Sin datos para mostrar</string>
+    <string name="volver">Volver</string>
+    <string name="logo">Logo de la aplicación</string>
 </resources>
